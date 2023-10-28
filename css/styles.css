@@ -19,12 +19,12 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .general-container {
   position: relative;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
 }
 
