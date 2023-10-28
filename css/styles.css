@@ -22,11 +22,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-.dark {
-  background-color: var(--dark);
-}
-
-.contenedor-general {
+.general-container {
   position: relative;
   width: 100%;
   overflow: hidden;
@@ -44,11 +40,6 @@ body {
   align-items: center;
   background-color: var(--white);
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .navbar {
-  background-color: var(--dark);
-  border-bottom: 1px solid #424141;
 }
 
 .navbar.active {
@@ -77,15 +68,7 @@ body.dark .navbar {
   transition: 0.4s;
   font-weight: 600;
   font-size: 1.4rem;
-  transition: all 0.4s ease-in-out;
-}
-
-body.dark .logo h1 {
-  color: var(--white);
-}
-
-body.dark .logo h1:hover {
-  color: var(--secundary-color);
+  /*   transition: all 0.4s ease-in-out; */
 }
 
 .logo h1:hover {
@@ -117,23 +100,11 @@ body.dark .logo h1:hover {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .links li a {
-  color: var(--white);
-}
-
-body.dark .links-navbar a:hover {
-  color: var(--secundary-color);
-}
-
 .links-navbar a:hover {
   color: var(--secundary-color);
 }
 
 .links li:first-child a {
-  color: var(--secundary-color);
-}
-
-body.dark .links li:first-child a {
   color: var(--secundary-color);
 }
 
@@ -184,10 +155,6 @@ body.dark .links li:first-child a {
   padding: 1rem;
   font-size: 1.2rem;
   color: var(--principal-color);
-}
-
-body.dark .mode i {
-  color: #ffc949;
 }
 
 .hamburguer {
@@ -268,10 +235,6 @@ body.dark .mode i {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .main {
-  background-color: var(--dark);
-}
-
 .home {
   margin-top: -5rem;
   width: 100%;
@@ -347,14 +310,6 @@ body.dark .main {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .title-home h3,
-body.dark .title-courses h3,
-body.dark .title-numbers h3,
-body.dark .title-testimonial h3,
-body.dark .title-instructors h3 {
-  color: var(--white);
-}
-
 .title-home span,
 .title-courses span,
 .title-numbers span,
@@ -422,10 +377,6 @@ body.dark .title-instructors h3 {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .card-description h4 {
-  color: var(--white);
-}
-
 .card-description i {
   text-align: center;
   background-color: rgb(13 54 159 / 9%);
@@ -436,21 +387,12 @@ body.dark .card-description h4 {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .cards-description i {
-  background-color: #151e37;
-  color: #4867b0;
-}
-
 .card-description p {
   text-align: center;
   font-size: 14px;
   font-weight: 500;
   color: #3d444b;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .card-description p {
-  color: var(--textdark);
 }
 
 .courses {
@@ -485,12 +427,6 @@ body.dark .card-description p {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .card-course {
-  border: none;
-  background-color: #161c2d;
-  box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
-}
-
 .card-course:hover {
   box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
 }
@@ -512,11 +448,6 @@ body.dark .card-course {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .container-card-course {
-  background-color: var(--dark);
-  border: 1px solid #26272b;
-}
-
 .header-card-course {
   width: 100%;
   display: flex;
@@ -533,10 +464,6 @@ body.dark .container-card-course {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .h-card-course p {
-  color: var(--white);
-}
-
 .h-card-course i {
   font-size: 12px;
   padding-top: 2px;
@@ -551,19 +478,11 @@ body.dark .h-card-course p {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .container-card-course h4 {
-  color: var(--white);
-}
-
 .parrafo-card-course {
   font-size: 14px;
   line-height: 28px;
   color: #707070;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .parrafo-card-course {
-  color: var(--textdark);
 }
 
 .footer-card-course {
@@ -573,10 +492,6 @@ body.dark .parrafo-card-course {
   border-top: 1px solid #eee;
   padding-top: 1rem;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .footer-card-course {
-  border-top: 1px solid var(--textdark);
 }
 
 .f-card-course {
@@ -663,6 +578,7 @@ body.dark .footer-card-course {
   justify-content: flex-end;
   align-items: center;
   height: 100%;
+  width: 100%;
   background-image: url('../img/bg3.jpg');
   background-size: cover;
   background-position: bottom;
@@ -690,10 +606,6 @@ body.dark .footer-card-course {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .card-class {
-  background-color: var(--dark);
-}
-
 .card-class i {
   color: var(--principal-color);
   background-color: #e9edf6;
@@ -702,11 +614,6 @@ body.dark .card-class {
   text-align: center;
   border-radius: 50%;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .card-class i {
-  background-color: #151e37;
-  color: #4867b0;
 }
 
 .card-class .fa-download {
@@ -720,10 +627,6 @@ body.dark .card-class i {
 
 .container-card-class h4 {
   font-size: 1.4rem;
-}
-
-body.dark .container-card-class {
-  color: var(--white);
 }
 
 .container-card-class p {
@@ -744,10 +647,6 @@ body.dark .container-card-class {
 .numbers p {
   color: #707070;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .numbers p {
-  color: var(--textdark);
 }
 
 .title-numbers {
@@ -801,11 +700,6 @@ body.dark .numbers p {
   animation: aparecer 1.3s;
 }
 
-body.dark .numbers-card h4,
-body.dark .numbers-card p {
-  color: var(--white);
-}
-
 .numbers-card p {
   font-size: 14px;
   transition: all 0.4s ease-in-out;
@@ -842,22 +736,12 @@ body.dark .numbers-card p {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .card-testimonial {
-  background-color: #161c2d;
-  box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
-}
-
 .card-testimonial > p {
   font-size: 14px;
   line-height: 28px;
   color: #707070;
   margin-left: 1rem;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .card-testimonial > p,
-body.dark .profile-testimonial-text p {
-  color: var(--textdark);
 }
 
 .card-testimonial i {
@@ -884,10 +768,6 @@ body.dark .profile-testimonial-text p {
 .profile-testimonial-text h4 {
   font-size: 1.2rem;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .profile-testimonial-text h4 {
-  color: var(--white);
 }
 
 .profile-testimonial-text p {
@@ -928,11 +808,6 @@ body.dark .profile-testimonial-text h4 {
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .card-instructor {
-  background-color: #161c2d;
-  box-shadow: 0 20px 62px hsla(222, 34%, 17%, 1);
 }
 
 .img-instructor {
@@ -986,14 +861,6 @@ body.dark .card-instructor {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .container-card-instructor h4 {
-  color: var(--white);
-}
-
-body.dark .container-card-instructor p {
-  color: var(--textdark);
-}
-
 .card-instructor:hover .container-card-instructor h4 {
   color: var(--secundary-color);
 }
@@ -1018,18 +885,10 @@ body.dark .container-card-instructor p {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .container-banner h4 {
-  color: var(--white);
-}
-
 .container-banner p {
   color: #707070;
   margin: 2rem 0;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .container-banner p {
-  color: var(--textdark);
 }
 
 .container-banner a {
@@ -1070,11 +929,6 @@ body.dark .container-banner p {
   transition: all 0.4s ease-in-out;
 }
 
-body.dark .container-subscribe {
-  background-color: #161c2d;
-  box-shadow: 0 20px 62px hsla(222, 1%, 5%, 1);
-}
-
 .container-subscribe .text-subscribe {
   width: 50%;
   padding-left: 1.5rem;
@@ -1085,14 +939,6 @@ body.dark .container-subscribe {
   font-size: 2.2rem;
   font-weight: 500;
   transition: all 0.4s ease-in-out;
-}
-
-body.dark .container-subscribe .text-subscribe h4 {
-  color: white;
-}
-
-body.dark .container-subscribe .text-subscribe p {
-  color: var(--textdark);
 }
 
 .input {
